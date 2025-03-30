@@ -1,5 +1,5 @@
 # Ethereum Price Predictor
-A ML model that predicts Ehtereum prices using historical data and different market informations. The model uses XGBoost regression with optimized hyperparameters to provide price predictions for the next day. 
+An ML model that predicts Ehtereum prices using historical data and different market informations. The model uses XGBoost regression with optimized hyperparameters to provide price predictions for the next day. 
 
 ## Data Processing Pipeline
 
