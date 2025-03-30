@@ -1,17 +1,6 @@
 # Ethereum Price Predictor
 A ML model that predicts Ehtereum prices using historical data and different market informations. The model uses XGBoost regression with optimized hyperparameters to provide price predictions for the next day. 
 
-## Project Structure
-├── data_processing/
-│ ├── data_processing.py # Processes the raw data
-│ └── data_cleaning.py # Handles the missing values 
-├── models/
-│ └── ethereum_price_predictor_V2.py # ML model + Visualization
-├── Data/
-│ ├── BTC_USD.csv
-│ └── [other data files]
-└── README.md
-
 ## Data Processing Pipeline
 
 ### Data Processing (`data_processing.py`)
