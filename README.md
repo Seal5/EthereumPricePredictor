@@ -12,17 +12,6 @@ A ML model that predicts Ehtereum prices using historical data and different mar
 │ └── [other data files]
 └── README.md
 
-## Features
-Allows prediction of future Ethereum prices using:
-- Ethereum price 
-- Bitcoin price
-- S&P 500 index
-- Gold price
-- USD worth
-- Feature engineered 7-day moving averages of:
-  - S&P 500 index
-  - Ethereum price
-
 ## Data Processing Pipeline
 
 ### Data Processing (`data_processing.py`)
@@ -37,12 +26,16 @@ Allows prediction of future Ethereum prices using:
 
 ## Model Implementation (`ethereum_price_predictor_V2.py`)
 
-### Features Used
-- USD Price
-- BTC High
-- ETH High
-- Gold USD
-- SPX High
+## Features
+Allows prediction of future Ethereum prices using:
+- Ethereum price 
+- Bitcoin price
+- S&P 500 index
+- Gold price
+- USD worth
+- Added lagged features and used feature engineered 7-day moving averages of [Making it a time series]:
+  - S&P 500 index
+  - Ethereum price
 
 ### Model Architecture
 - Algorithm: XGBoost Regressor
